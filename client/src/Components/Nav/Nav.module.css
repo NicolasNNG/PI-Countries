@@ -1,0 +1,63 @@
+/* Nav.module.css */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecd9b6; /* Cambiar a un tono beige vintage */
+  padding: 30px; /* Aumentar el espacio interno */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hacer la sombra un poco más pronunciada */
+}
+
+.button {
+  background-color: #ffa500; /* Cambiar a un tono naranja vintage */
+  color: #fff;
+  border: none;
+  padding: 20px 40px; /* Aumentar el padding */
+  border-radius: 10px; /* Aumentar la curvatura de los bordes */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px; /* Aumentar el tamaño de fuente */
+  font-family: 'Times New Roman', serif; /* Usar una fuente más clásica */
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff6600; /* Cambiar el color al pasar el mouse */
+}
+
+.containerButton {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  background-color: #a35e70; 
+  color: #fff;
+  border: none;
+  padding: 20px 40px; /* Aumentar el padding */
+  border-radius: 10px; /* Aumentar la curvatura de los bordes */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px; /* Aumentar el tamaño de fuente */
+  font-family: 'Times New Roman', serif; /* Usar una fuente más clásica */
+  margin-left: 30px; /* Aumentar el espacio entre botones */
+  transition: background-color 0.3s ease;
+}
+.buttons2 {
+  background-color: #9b7f34; 
+  color: #fff;
+  border: none;
+  padding: 20px 40px; /* Aumentar el padding */
+  border-radius: 10px; /* Aumentar la curvatura de los bordes */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px; /* Aumentar el tamaño de fuente */
+  font-family: 'Times New Roman', serif; /* Usar una fuente más clásica */
+  margin-left: 30px; /* Aumentar el espacio entre botones */
+  transition: background-color 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: #990033; /* Cambiar el color al pasar el mouse */
+}

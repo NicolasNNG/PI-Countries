@@ -1,0 +1,147 @@
+.background {
+  background-image: url('https://img.freepik.com/vector-gratis/concepto-cartografia-mapa-mundial-vintage_52683-26377.jpg?w=2000');
+  background-size: cover;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  min-height: 100vh;
+  background-size: 50rem;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+}
+
+.card {
+  margin-top: 4rem;
+  position: relative;
+  z-index: 2;
+  justify-content: space-around;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  color: rgb(212, 192, 192);
+  background-color: white;
+  border-radius: 1rem;
+  width: 10%;
+}
+
+.button {
+  width: 6rem;
+  border: none;
+  color: rgb(17, 15, 15);
+  background-color: rgb(164, 204, 21);
+  border-radius: 1rem;
+  padding: 0.2em 0.7em 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 5px
+}
+
+.buttonOrder {
+  height: 1.5rem;
+  position: fixed;
+  top: 90px; /* Fija la distancia desde la parte superior */
+  left: 25%; /* Fija la posición horizontal en relación con la ventana */
+  z-index: 4;
+  background: linear-gradient(0deg, #c9bd1e 0%, rgb(173, 175, 48) 100%);
+  color: rgb(12, 11, 11);
+  border-radius: 1rem;
+  background-color: rgb(136, 119, 23);
+  text-align: center;
+}
+
+.buttonFilter {
+  height: 1.5rem;
+  position: fixed;
+  top: 90px; /* Fija la distancia desde la parte superior */
+  left: 38%; /* Fija la posición horizontal en relación con la ventana */
+  z-index: 4;
+  background: linear-gradient(0deg, #c9bd1e 0%, rgb(173, 175, 48) 100%);
+  color: rgb(7, 6, 6);
+  border-radius: 1rem;
+  background-color: rgb(136, 119, 23);
+}
+
+.filterActivity {
+  height: 1.5rem;
+  margin-top: 1.9rem;
+  position: fixed;
+  margin-left: 65%;
+  z-index: 4;
+  background: linear-gradient(0deg, #000 0%, rgb(77, 60, 119) 100%);
+  color: white;
+  border-radius: 1rem;
+  background-color: rgb(158, 142, 199);
+}
+
+
+
+/* Estilos para el select */
+.pageSelect {
+  appearance: none; /* Oculta el control nativo */
+  padding: 10px 20px; /* Aumenta el espacio interno */
+  font-size: 16px; /* Tamaño de fuente */
+  border: 2px solid #91ca0d; /* Borde */
+  background-color: rgb(164, 204, 21);; /* Fondo */
+  color: #333; /* Color de texto */
+  border-radius: 8px; /* Borde redondeado */
+  cursor: pointer; /* Cursor al pasar sobre el select */
+  position: relative; /* Para personalizar la flecha desplegable */
+}
+
+/* Estilos para la flecha desplegable (triángulo) */
+.pageSelect::after {
+  content: "\25BC"; /* Código Unicode para un triángulo */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none; /* Evita que la flecha sea seleccionable */
+}
+
+/* Estilos al pasar el mouse sobre el select */
+.pageSelect:hover {
+  border-color: #af7811; 
+}
+
+/* Estilos para cuando se enfoca el select */
+.pageSelect:focus {
+  outline: none; /* Elimina el contorno al enfocar */
+  border-color: #555; /* Cambia el color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra al enfocar */
+}
+
+/* Estilos para las opciones del select */
+.pageSelect option {
+  background-color: #a4ce0c; /* Fondo de las opciones */
+  color: #333; /* Color de texto de las opciones */
+}
+
+/* Estilos para las opciones al pasar el mouse sobre ellas */
+.pageSelect option:hover {
+  background-color: #ddd; /* Cambia el fondo de las opciones al pasar el mouse */
+}

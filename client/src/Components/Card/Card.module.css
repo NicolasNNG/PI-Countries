@@ -1,0 +1,44 @@
+/* Card.module.css */
+
+
+
+.card {
+  width: 200px;
+  border: 2px solid #dcdcdc; /* Borde estilo antiguo */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f8f8f8; /* Fondo ligeramente gris */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center; /* Texto centrado */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  text-decoration: none;
+  color: #333;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo {
+  font-family: 'Times New Roman', Times, serif; /* Fuente estilo antiguo */
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.continents {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #666; /* Color de texto más oscuro */
+}
+
+/* Puedes ajustar aún más los estilos según tus preferencias */

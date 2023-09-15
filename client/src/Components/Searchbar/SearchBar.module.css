@@ -1,0 +1,34 @@
+/* SearchBar.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.buttonInput {
+  padding: 15px; /* Aumentar el padding */
+  font-size: 18px; /* Aumentar el tamaño de fuente */
+  border: 2px solid #cc0033; /* Cambiar a un borde rojo vintage */
+  border-radius: 8px; /* Aumentar la curvatura de los bordes */
+  outline: none;
+  width: 250px; /* Aumentar el ancho del input */
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Hacer la sombra un poco más pronunciada */
+}
+
+.button {
+  background-color: #ff9900; /* Cambiar a un tono naranja vintage */
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Aumentar el padding */
+  border-radius: 8px; /* Aumentar la curvatura de los bordes */
+  cursor: pointer;
+  font-size: 18px; /* Aumentar el tamaño de fuente */
+  text-decoration: none;
+  font-family: 'Times New Roman', serif; /* Usar una fuente más clásica */
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff6600; /* Cambiar el color al pasar el mouse */
+}

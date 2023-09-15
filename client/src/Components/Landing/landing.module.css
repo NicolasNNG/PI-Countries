@@ -1,0 +1,43 @@
+/* Landing.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/fotos-premium/brujula-antigua-sobre-mapa-viejo-mundo-reloj-arena-cerca-brujula-apunta-region-resaltada-tesoro-mapa-ia-generativa_620624-12032.jpg?w=2000'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hace que la imagen de fondo sea fija */
+    text-align: center;
+    color: #fff; /* Color de texto blanco para contraste */
+  }
+  
+  .title {
+    font-family: 'Georgia', serif; /* Cambia la fuente a Georgia o la que prefieras */
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
+    text-transform: uppercase;
+  }
+  
+  .button {
+    background-color: #009933; /* Cambia el color de fondo del botón a verde */
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial o la que prefieras */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #007d2b; /* Cambia el color de fondo del botón al pasar el ratón */
+  }
+  

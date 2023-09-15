@@ -1,0 +1,68 @@
+/* CardDetail.module.css */
+
+/* Estilo del contenedor principal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://previews.123rf.com/images/delcreations/delcreations1709/delcreations170900103/86940445-par%C3%ADs-francia-estilo-vintage-de-collage-de-foto-panor%C3%A1mica-concepto-de-viajes-y-turismo-de.jpg'); /* Reemplaza 'ruta/a/tu/imagen-de-fondo.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-color: #f5e0ca; /* Color de fondo en caso de que la imagen no se cargue */
+}
+
+/* Estilo de la sección de detalles */
+.detailes {
+  background-color: rgba(255, 255, 255, 0.9); /* Color de fondo semi-transparente para el contenido */
+  border: 2px solid #8b4513;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #333;
+}
+
+/* Estilo de la imagen de la bandera */
+.flagContainer {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los detalles */
+.detailes h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+  transition: text-shadow 0.3s ease;
+}
+
+/* Efecto de sombra en el texto al acercar */
+.detailes h3:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el botón "Salir" */
+.button {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #6b0000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
